@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+.header img {
+  margin-top: -10px;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-left: 50px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header ul .lets {
+  border: 1px solid #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  margin-top: -10px;
+}
+.header ul .lets:hover {
+  border: 1px solid #313EF7;
+}
+.header ul .header_list_item a:hover {
+  color: #313EF7;
+  border-bottom: 2px solid #313EF7;
+  padding-bottom: 8px;
+}
+.header ul .header_list_item {
+  display: flex;
+}
+
+body {
+  background-image: url(../images/Group\ 11.svg);
+  width: 100%;
+  height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  text-align: center;
+}
+.hero img {
+  width: 1250px;
+  height: auto;
+}
+.hero .hero__eco {
+  width: 400px;
+  height: 45px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  margin-left: 125px;
+  border-bottom: 1px solid #F3F4F6;
+}
+.hero .hero__eco a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+.hero .hero__book {
+  width: 1100px;
+  height: 150px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
+}
+.hero .hero__book span {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hero .hero__book span div {
+  align-items: center;
+}
+.hero .hero__book .hero__book__span {
+  text-align: start;
+  margin-bottom: 15px;
+}
+.hero .hero__book .hero__book__span p {
+  color: #AEB5BF;
+}
+.hero .hero__book .hero__book__span img {
+  margin-top: -15px;
+}
+.hero .hero__book .hero__book__span__now {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 50px;
+  background-color: #313EF7;
+  border-radius: 20px;
+}
+
+.hero__Features {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__Features__item {
+  display: flex;
+  margin-left: 170px;
+  margin-top: 40px;
+}
+
+.hero__Features__item1 {
+  font-family: "Montserrat", sans-serif;
+  width: 235px;
+  height: 300px;
+  border-radius: 120px;
+  padding-top: 40px;
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
+  margin-right: 30px;
+}
+.hero__Features__item1 h4 {
+  margin: 12px 0px;
+  font-weight: 900;
+}
+.hero__Features__item1 p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+.hero__Features__item2 {
+  font-family: "Montserrat", sans-serif;
+  width: 235px;
+  height: 300px;
+  border-radius: 120px;
+  padding-top: 40px;
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
+  margin-right: 30px;
+}
+.hero__Features__item2 h4 {
+  margin: 12px 0px;
+  font-weight: 900;
+}
+.hero__Features__item2 p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+.hero__Features__item3 {
+  font-family: "Montserrat", sans-serif;
+  width: 235px;
+  height: 300px;
+  border-radius: 120px;
+  padding-top: 40px;
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
+  margin-right: 30px;
+}
+.hero__Features__item3 h4 {
+  margin: 12px 0px;
+  font-weight: 900;
+}
+.hero__Features__item3 p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+.hero__Features__item4 {
+  font-family: "Montserrat", sans-serif;
+  width: 235px;
+  height: 300px;
+  border-radius: 120px;
+  padding-top: 40px;
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
+  margin-right: 30px;
+}
+.hero__Features__item4 h4 {
+  margin: 12px 0px;
+  font-weight: 900;
+}
+.hero__Features__item4 p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */
